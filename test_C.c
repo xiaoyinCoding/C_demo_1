@@ -3,5 +3,8 @@
 int main(void)
 {
 	int i = 6;
-	printf("i = %d", i);
+	int* p;
+	p = &i;
+	printf("i = %d\n", i);
+	printf("pµÄµØÖ·Îª£º%#x", p);
 }
