@@ -6,5 +6,5 @@ int main(void)
 	int* p;
 	p = &i;
 	printf("i = %d\n", i);
-	printf("p的地址为：%#x", p);
+	printf("p的地址为： %#x", p);
 }
