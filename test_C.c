@@ -2,6 +2,6 @@
 
 int main(void)
 {
-	int i = 5;
+	int i = 6;
 	printf("i = %d", i);
 }
